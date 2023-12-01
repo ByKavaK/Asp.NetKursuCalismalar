@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\MeetingApp\\MeetingApp.csproj": {}
+    "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\Github\\Asp.NetKursuCalismalar\\MeetingApp\\MeetingApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\MeetingApp\\MeetingApp.csproj": {
+    "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\Github\\Asp.NetKursuCalismalar\\MeetingApp\\MeetingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\MeetingApp\\MeetingApp.csproj",
+        "projectUniqueName": "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\Github\\Asp.NetKursuCalismalar\\MeetingApp\\MeetingApp.csproj",
         "projectName": "MeetingApp",
-        "projectPath": "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\MeetingApp\\MeetingApp.csproj",
+        "projectPath": "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\Github\\Asp.NetKursuCalismalar\\MeetingApp\\MeetingApp.csproj",
         "packagesPath": "C:\\Users\\ysnkv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\MeetingApp\\obj\\",
+        "outputPath": "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\Github\\Asp.NetKursuCalismalar\\MeetingApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ysnkv\\AppData\\Roaming\\NuGet\\NuGet.Config",
