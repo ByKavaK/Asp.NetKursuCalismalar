@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\Github\\FormsApp\\FormsApp\\FormsApp.csproj": {}
+    "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\FormsApp\\FormsApp\\FormsApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\Github\\FormsApp\\FormsApp\\FormsApp.csproj": {
+    "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\FormsApp\\FormsApp\\FormsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\Github\\FormsApp\\FormsApp\\FormsApp.csproj",
+        "projectUniqueName": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\FormsApp\\FormsApp\\FormsApp.csproj",
         "projectName": "FormsApp",
-        "projectPath": "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\Github\\FormsApp\\FormsApp\\FormsApp.csproj",
+        "projectPath": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\FormsApp\\FormsApp\\FormsApp.csproj",
         "packagesPath": "C:\\Users\\ysnkv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ysnkv\\OneDrive\\Masaüstü\\Github\\FormsApp\\FormsApp\\obj\\",
+        "outputPath": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\FormsApp\\FormsApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ysnkv\\AppData\\Roaming\\NuGet\\NuGet.Config",

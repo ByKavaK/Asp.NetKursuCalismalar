@@ -1,5 +1,6 @@
 ﻿using FormsApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Diagnostics;
 
 namespace FormsApp.Controllers
@@ -11,7 +12,8 @@ namespace FormsApp.Controllers
             
         }
 
-        public IActionResult Index(string searchString)
+        [HttpGet]
+        public IActionResult Index(string searchString, string category)
         {
             var products = Repository.Products;
             if (!String.IsNullOrEmpty(searchString))
@@ -20,12 +22,34 @@ namespace FormsApp.Controllers
                 products = products.Where(p => p.Name.ToLower().Contains(searchString)).ToList();
             }
 
-            return View(products);
+            if (!String.IsNullOrEmpty(category) && category != "0")
+            {
+                products = products.Where(p => p.CategoryId == int.Parse(category)).ToList();
+            }
+
+            //ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name", category);
+
+            var model = new ProductViewModel
+            {
+                Products = products,
+                Categories = Repository.Categories,
+                SelectedCategory = category
+            };
+            return View(model);
         }
 
-        public IActionResult Privacy()
+        [HttpGet]
+        public IActionResult Create()
         {
+            ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name");
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Product model)
+        {
+            Repository.CreateProduct(model);
+            return RedirectToAction("Index");
         }
     }
 }
