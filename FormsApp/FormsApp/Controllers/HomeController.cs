@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Diagnostics;
 using System.IO;
+using System.Reflection;
 
 namespace FormsApp.Controllers
 {
@@ -49,14 +50,12 @@ namespace FormsApp.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateAsync(Product model, IFormFile imageFile)
         {
-            var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
-            var extension = Path.GetExtension(imageFile.FileName);
-            var randomFileName = string.Format($"{Guid.NewGuid().ToString()}{extension}");
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", randomFileName);
-
+            var extension = "";
             if(imageFile != null)
             {
-                if(!allowedExtensions.Contains(extension))
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
+                extension = Path.GetExtension(imageFile.FileName);
+                if (!allowedExtensions.Contains(extension))
                 {
                     ModelState.AddModelError("", "Geçerli Bir Resim Seçiniz.");
                 }
@@ -66,15 +65,17 @@ namespace FormsApp.Controllers
             {
                 if(imageFile != null)
                 {
+                    var randomFileName = string.Format($"{Guid.NewGuid().ToString()}{extension}");
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", randomFileName);
                     using (var stream = new FileStream(path, FileMode.Create))
                     {
                         await imageFile.CopyToAsync(stream);
                     }
+                    model.Image = randomFileName;
+                    model.ProductId = Repository.Products.Count + 1;
+                    Repository.CreateProduct(model);
+                    return RedirectToAction("Index");
                 }
-                model.Image = randomFileName;
-                model.ProductId = Repository.Products.Count + 1;
-                Repository.CreateProduct(model);
-                return RedirectToAction("Index");
             }
             ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name");
             return View(model);
@@ -119,6 +120,47 @@ namespace FormsApp.Controllers
             }
             ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name");
             return View(model);
+        }
+        
+        public IActionResult Delete(int? id)
+        {
+            if(id == null) 
+            { 
+                return NotFound(); 
+            }
+
+            var entity = Repository.Products.FirstOrDefault(p => p.ProductId == id);
+            if (entity == null)
+            {
+                return NotFound();
+            }
+
+            return View("DeleteConfirm", entity);
+        }
+        [HttpPost]
+        public IActionResult Delete(int id, int ProductId)
+        {
+            if (id != ProductId)
+            {
+                return NotFound();
+            }
+            var entity = Repository.Products.FirstOrDefault(p => p.ProductId == ProductId);
+            if (entity == null)
+            {
+                return NotFound();
+            }
+
+            Repository.DeleteProduct(entity);
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult EditProducts(List<Product> Products)
+        {
+            foreach(var product in Products)
+            {
+                Repository.EditIsActive(product);
+            }
+            return RedirectToAction("Index");
         }
     }
 }
