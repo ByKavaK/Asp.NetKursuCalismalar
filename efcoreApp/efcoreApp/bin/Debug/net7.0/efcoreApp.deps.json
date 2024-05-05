@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v7.0": {
       "efcoreApp/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.8",
           "Microsoft.EntityFrameworkCore.Design": "7.0.8",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.8"
         },

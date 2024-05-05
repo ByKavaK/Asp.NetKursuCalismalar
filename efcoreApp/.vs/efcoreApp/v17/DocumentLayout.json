@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|c:\\users\\ysnkv\\onedrive\\belgeler\\github\\asp.netkursucalismalar\\efcoreapp\\efcoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|solutionrelative:efcoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|c:\\users\\ysnkv\\onedrive\\belgeler\\github\\asp.netkursucalismalar\\efcoreapp\\efcoreapp\\views\\kurs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|solutionrelative:efcoreapp\\views\\kurs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|c:\\users\\ysnkv\\onedrive\\belgeler\\github\\asp.netkursucalismalar\\efcoreapp\\efcoreapp\\views\\ogrenci\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|solutionrelative:efcoreapp\\views\\ogrenci\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|c:\\users\\ysnkv\\onedrive\\belgeler\\github\\asp.netkursucalismalar\\efcoreapp\\efcoreapp\\controllers\\kurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|solutionrelative:efcoreapp\\controllers\\kurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|c:\\users\\ysnkv\\onedrive\\belgeler\\github\\asp.netkursucalismalar\\efcoreapp\\efcoreapp\\controllers\\ogrencicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|solutionrelative:efcoreapp\\controllers\\ogrencicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|c:\\users\\ysnkv\\onedrive\\belgeler\\github\\asp.netkursucalismalar\\efcoreapp\\efcoreapp\\data\\kurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|solutionrelative:efcoreapp\\data\\kurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|c:\\users\\ysnkv\\onedrive\\belgeler\\github\\asp.netkursucalismalar\\efcoreapp\\efcoreapp\\views\\kurs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|solutionrelative:efcoreapp\\views\\kurs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|c:\\users\\ysnkv\\onedrive\\belgeler\\github\\asp.netkursucalismalar\\efcoreapp\\efcoreapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|solutionrelative:efcoreapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +59,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Program.cs",
-              "RelativeDocumentMoniker": "efcoreApp\\Program.cs",
-              "ToolTip": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Program.cs",
-              "RelativeToolTip": "efcoreApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Views\\Kurs\\Index.cshtml",
+              "RelativeDocumentMoniker": "efcoreApp\\Views\\Kurs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Views\\Kurs\\Index.cshtml",
+              "RelativeToolTip": "efcoreApp\\Views\\Kurs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T20:02:56.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Views\\Ogrenci\\Index.cshtml",
+              "RelativeDocumentMoniker": "efcoreApp\\Views\\Ogrenci\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Views\\Ogrenci\\Index.cshtml",
+              "RelativeToolTip": "efcoreApp\\Views\\Ogrenci\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T20:02:33.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OgrenciController.cs",
+              "DocumentMoniker": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Controllers\\OgrenciController.cs",
+              "RelativeDocumentMoniker": "efcoreApp\\Controllers\\OgrenciController.cs",
+              "ToolTip": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Controllers\\OgrenciController.cs",
+              "RelativeToolTip": "efcoreApp\\Controllers\\OgrenciController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T17:16:21.811Z",
+              "WhenOpened": "2024-05-05T19:59:04.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KursController.cs",
+              "DocumentMoniker": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Controllers\\KursController.cs",
+              "RelativeDocumentMoniker": "efcoreApp\\Controllers\\KursController.cs",
+              "ToolTip": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Controllers\\KursController.cs",
+              "RelativeToolTip": "efcoreApp\\Controllers\\KursController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:53:39.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "efcoreApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "efcoreApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T19:57:51.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Kurs.cs",
+              "DocumentMoniker": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Data\\Kurs.cs",
+              "RelativeDocumentMoniker": "efcoreApp\\Data\\Kurs.cs",
+              "ToolTip": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Data\\Kurs.cs",
+              "RelativeToolTip": "efcoreApp\\Data\\Kurs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:57:09.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Views\\Kurs\\Create.cshtml",
+              "RelativeDocumentMoniker": "efcoreApp\\Views\\Kurs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Views\\Kurs\\Create.cshtml",
+              "RelativeToolTip": "efcoreApp\\Views\\Kurs\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T19:56:36.977Z",
               "EditorCaption": ""
             }
           ]
