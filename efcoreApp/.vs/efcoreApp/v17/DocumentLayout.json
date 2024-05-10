@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|c:\\users\\ysnkv\\onedrive\\belgeler\\github\\asp.netkursucalismalar\\efcoreapp\\efcoreapp\\controllers\\kurskayitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|solutionrelative:efcoreapp\\controllers\\kurskayitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|c:\\users\\ysnkv\\onedrive\\belgeler\\github\\asp.netkursucalismalar\\efcoreapp\\efcoreapp\\views\\kurskayit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|solutionrelative:efcoreapp\\views\\kurskayit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|c:\\users\\ysnkv\\onedrive\\belgeler\\github\\asp.netkursucalismalar\\efcoreapp\\efcoreapp\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19E07D28-3C43-43AD-8F92-7EFF06ED3E76}|efcoreApp\\efcoreApp.csproj|solutionrelative:efcoreapp\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +39,49 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "efcoreApp\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Data\\DataContext.cs",
+              "RelativeToolTip": "efcoreApp\\Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T20:50:33.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Views\\KursKayit\\Index.cshtml",
+              "RelativeDocumentMoniker": "efcoreApp\\Views\\KursKayit\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Views\\KursKayit\\Index.cshtml",
+              "RelativeToolTip": "efcoreApp\\Views\\KursKayit\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T20:43:06.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KursKayitController.cs",
+              "DocumentMoniker": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Controllers\\KursKayitController.cs",
+              "RelativeDocumentMoniker": "efcoreApp\\Controllers\\KursKayitController.cs",
+              "ToolTip": "C:\\Users\\ysnkv\\OneDrive\\Belgeler\\GitHub\\Asp.NetKursuCalismalar\\efcoreApp\\efcoreApp\\Controllers\\KursKayitController.cs",
+              "RelativeToolTip": "efcoreApp\\Controllers\\KursKayitController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T20:16:39.198Z",
+              "EditorCaption": ""
             }
           ]
         }
